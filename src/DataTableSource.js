@@ -1,0 +1,88 @@
+import Typography from "@mui/material/Typography";
+import Avatar from "@mui/material/Avatar";
+import { Stack, Link, Button } from "@mui/material";
+import DeleteIcon from "@mui/icons-material/Delete";
+
+export const userRows = [
+  {
+    id: 1,
+    name: "Snow",
+    address: "Dhangadhi",
+    img: "https://i.insider.com/5cb3c8e96afbee373d4f2b62?width=700",
+    email: "jon@gmail.com",
+    age: 42,
+    access: "manager",
+  },
+  {
+    id: 2,
+    name: "Lannister",
+    address: "Dhangadhi",
+    img: "https://w0.peakpx.com/wallpaper/95/623/HD-wallpaper-cersei-lannister-art-luminos-vlalizavladarose-game-of-thrones-queen-blonde-woman-fantasy-girl-portrait.jpg",
+    email: "lannister@gmail.com",
+    age: 42,
+    access: "user",
+  },
+  {
+    id: 3,
+    name: "Lannister",
+    address: "Dhangadhi",
+    img: "https://upload.wikimedia.org/wikipedia/en/b/b4/Jaime_Lannister-Nikolaj_Coster-Waldau.jpg",
+    email: "jaime@gmail.com",
+    age: 42,
+    access: "admin",
+  },
+  {
+    id: 4,
+    name: "Stark",
+    address: "Dhangadhi",
+    img: "https://w0.peakpx.com/wallpaper/919/270/HD-wallpaper-arya-stark-gameofthrones-maisiewilliams-thumbnail.jpg",
+    email: "arya@gmail.com",
+    age: 42,
+    access: "manager",
+  },
+  {
+    id: 5,
+    name: "Targaryen",
+    address: "Dhangadhi",
+    img: "https://wallpapercave.com/wp/wp9124085.jpg",
+    email: "targ@gmail.com",
+    age: 42,
+    access: "admin",
+  },
+  {
+    id: 6,
+    name: "Melisandre",
+    address: "Dhangadhi",
+    img: "https://preview.redd.it/my-new-melisandre-cosplay-hope-you-like-it-im-happy-to-v0-9u07thpt8zfa1.jpg?width=1500&format=pjpg&auto=webp&s=731e26ede8187c0e9b2920d89cf410d6d112a85e",
+    email: "melis@gmail.com",
+    age: 42,
+    access: "manager",
+  },
+  {
+    id: 7,
+    name: "Clifford",
+    address: "Dhangadhi",
+    img: "https://media.licdn.com/dms/image/C4E03AQENPQrDfbVaiw/profile-displayphoto-shrink_800_800/0/1629310126004?e=2147483647&v=beta&t=aghVLM_oTt0gDoSr-O09byS_sz1bMPhLKbdsofI6XS4",
+    email: "ferra@gmail.com",
+    age: 42,
+    access: "manager",
+  },
+  {
+    id: 8,
+    name: "JolieAngelina",
+    address: "Dhangadhi",
+    img: "https://media.vanityfair.com/photos/57e161aa7dd0d7d276c7cb7f/1:1/w_1368,h_1368,c_limit/angelina-jolie-june-2008-vf.jpg",
+    email: "angelina@gmail.com",
+    age: 42,
+    access: "user",
+  },
+  {
+    id: 9,
+    name: "babylove",
+    address: "Dhangadhi",
+    img: "https://www.biofamous.com/wp-content/uploads/2017/10/Niti-Shah-photo.jpg",
+    email: "thakuriniti@gmail.com",
+    age: 42,
+    access: "user",
+  },
+];

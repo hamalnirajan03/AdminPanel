@@ -1,0 +1,136 @@
+export const products = [
+  {
+    id: 1,
+    image:
+      "https://images.macrumors.com/t/LOfu9VLk4WvjtKmnQtzdS67Rr3w=/800x0/smart/article-new/2016/05/iphone8gold.jpg",
+    title: "iPhone 9",
+    description: "An apple mobile which is nothing like apple",
+    price: 549,
+    discountPercentage: 12.96,
+    rating: 4.69,
+    stock: 94,
+    brand: "Apple",
+    category: "smartphones",
+  },
+  {
+    id: 2,
+    image:
+      "https://cdn.dxomark.com/wp-content/uploads/medias/post-125428/Apple-iPhone-14-Pro-Max_FINAL_featured-image-packshot-review-1.jpg",
+    title: "iphone 14 pro max",
+    description:
+      "State-of-the-art video experience on both front and back cameras",
+
+    price: 215000,
+    discountPercentage: 12.96,
+    rating: 4.69,
+    stock: 12,
+    brand: "Apple",
+    category: "smartphones",
+  },
+  {
+    id: 3,
+    image:
+      "https://www.91-cdn.com/hub/wp-content/uploads/2022/08/lenovo-legion-5i-pro-2022-1.jpg?tr=q-100",
+    title: "Legion 5",
+    description:
+      "Buy Lenovo Legion 5 PRO 2021 with i7-11800H, RTX 3070, 32GB RAM, 16'' ",
+    price: 250000,
+    discountPercentage: 12.96,
+    rating: 4.69,
+    stock: 94,
+    brand: "Lenovo",
+    category: "Laptop",
+  },
+  {
+    id: 4,
+    image:
+      "https://cdn.dxomark.com/wp-content/uploads/medias/post-106688/Samsung-Galaxy-S22-Ultra-featured-image-packshot-review-Recovered-1024x691.jpg",
+    title: "S22 ultra",
+    description:
+      "This is samsung ultra phone. For those who wants more and more",
+    price: 200000,
+    discountPercentage: 12.96,
+    rating: 4.69,
+    stock: 94,
+    brand: "Samsung",
+    category: "smartphones",
+  },
+  {
+    id: 5,
+    image:
+      "https://cdn.shopify.com/s/files/1/0516/3761/6830/products/A3040031_Noise_Cancelling_Headphones_TD01_1500x.jpg?v=1668154743",
+    title: "Headphone",
+    description: "An apple mobile which is nothing like apple",
+    price: 5049,
+    discountPercentage: 12.96,
+    rating: 4.69,
+    stock: 94,
+    brand: "Beats",
+    category: "Headphone",
+  },
+  {
+    id: 6,
+    image:
+      "https://www.asus.com/media/global/gallery/eubj2pxfxjdxapyl_setting_xxx_0_90_end_2000.png",
+    title: "Zenbook",
+    description: "An apple mobile which is nothing like apple",
+    price: 285000,
+    discountPercentage: 12.96,
+    rating: 4.69,
+    stock: 94,
+    brand: "Asus",
+    category: "Laptop",
+  },
+  {
+    id: 7,
+    image:
+      "https://www.cgdigital.com.np/api/images/products/V8XSJt_1668172801-CG55D1.V2.webp",
+    title: " 4k 55 Television CG",
+    description: "An apple mobile which is nothing like apple",
+    price: 75049,
+    discountPercentage: 12.96,
+    rating: 4.69,
+    stock: 94,
+    brand: "CG",
+    category: "Television",
+  },
+  {
+    id: 8,
+    image:
+      "https://www.aliteq.com/wp-content/uploads/2022/11/001-keyboard-and-mouse-combo-aliteq.jpg",
+    title: "RGB keyboard",
+    description: "An apple mobile which is nothing like apple",
+    price: 5449,
+    discountPercentage: 12.96,
+    rating: 4.69,
+    stock: 94,
+    brand: "Samsung",
+    category: "Keyboard",
+  },
+  {
+    id: 9,
+    image:
+      "https://www.cnet.com/a/img/resize/8d47065f9ecb62603a14d9b33f02e3e5c91a512e/hub/2021/05/12/0ad36336-efa0-4310-aff2-c268fec45350/samsung-lf27t350fhnxza-monitor.png?auto=webp&fit=crop&height=900&precrop=885,498,x0,y0&width=1200",
+    title: "Monitor",
+    description: "An apple mobile which is nothing like apple",
+    price: 549,
+    discountPercentage: 12.96,
+    rating: 4.69,
+    stock: 94,
+    brand: "Samsung",
+    category: "Computer",
+  },
+  {
+    id: 10,
+    image:
+      "https://www.cameralabs.com/wp-content/uploads/2019/08/canon-eos-90d-hero-1.jpg",
+    title: "Canon EOS",
+    description: "An apple mobile which is nothing like apple",
+    price: 55549,
+    discountPercentage: 12.96,
+    rating: 4.69,
+    stock: 94,
+    brand: "Nikon",
+    category: "Camera",
+  },
+];
