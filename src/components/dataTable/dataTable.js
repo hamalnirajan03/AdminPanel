@@ -7,8 +7,7 @@ import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 
 import AdminPanelSettingsIcon from "@mui/icons-material/AdminPanelSettings";
-// import SecurityIcon from "@mui/icons-material/Security";
-// import LockOpenIcon from "@mui/icons-material/LockOpen";
+
 import { LockOpenOutlined, SecurityOutlined } from "@mui/icons-material";
 import Typography from "@mui/material/Typography";
 import { green, grey } from "@mui/material/colors";

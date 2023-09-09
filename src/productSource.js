@@ -11,6 +11,7 @@ export const products = [
     stock: 94,
     brand: "Apple",
     category: "smartphones",
+    colors: ["#405CCD", "#F7FCF6"],
   },
   {
     id: 2,
@@ -66,7 +67,7 @@ export const products = [
     rating: 4.69,
     stock: 94,
     brand: "Beats",
-    category: "Headphone",
+    category: "Computer Acessories",
   },
   {
     id: 6,
@@ -105,7 +106,7 @@ export const products = [
     rating: 4.69,
     stock: 94,
     brand: "Samsung",
-    category: "Keyboard",
+    category: "Computer Acessories",
   },
   {
     id: 9,
@@ -118,7 +119,7 @@ export const products = [
     rating: 4.69,
     stock: 94,
     brand: "Samsung",
-    category: "Computer",
+    category: "Computer Acessories",
   },
   {
     id: 10,
@@ -132,5 +133,31 @@ export const products = [
     stock: 94,
     brand: "Nikon",
     category: "Camera",
+  },
+  {
+    id: 11,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5HlAYGnGaWTtD29Ehhcuagh-blFdBUS71Kg&usqp=CAU0dHR0tLS0tLSstLS0uLSs2KystNy0tLTctKy0tLS0rLS0vKzc3LSs3NysrKys4NystLS0tLf",
+    title: "Travis Scott Air Jordan 6",
+    description: "Shoes That change your lifestyle",
+    price: 280000,
+    discountPercentage: "No Discount",
+    rating: 4.69,
+    stock: 94,
+    brand: "AJ6",
+    category: "Men's Fashion",
+  },
+  {
+    id: 12,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQENu6NGJy-7AARLJyqeuwG11R_v9T-Qg_SkQ&usqp=CAU",
+    title: "Jordan Jogger",
+    description: "Make your winter Better",
+    price: 20000,
+    discountPercentage: "No Discount",
+    rating: 4.69,
+    stock: 94,
+    brand: "Jordan",
+    category: "Men's Fashion",
   },
 ];

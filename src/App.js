@@ -8,9 +8,10 @@ import { productsInput, userInputs } from "./formSource";
 import ViewProduct from "./pages/viewProduct/ViewProduct";
 import DetailProduct from "./pages/detailProduct/DetailProduct";
 import WebPage from "./pages/webPage/WebPage";
-import FilterProduct from "./pages/filterProduct/FilterProduct";
+import { products } from "./productSource";
+import Cart from "./components/Cart/Cart";
 
-function App() {
+function App({ products }) {
   return (
     <div className="App">
       <BrowserRouter>
@@ -30,8 +31,18 @@ function App() {
             }
           />
           <Route path="/viewProducts" element={<ViewProduct />}></Route>
-          <Route path="/viewProducts/:pid" element={<DetailProduct />}></Route>
-          <Route path="/filterProducts" element={<FilterProduct />}></Route>
+          <Route
+            path="/viewProducts/:pid"
+            element={<DetailProduct product={products} />}
+          ></Route>
+          <Route path="/cart" element={<Cart />}></Route>
+
+          {/* <Route exact path="/products/:pid">
+            <DetailProduct products={products} addToCart={addToCart} />
+          </Route>
+          <Route exact path="/cart">
+            <Cart cart={cart} />
+          </Route> */}
         </Routes>
       </BrowserRouter>
     </div>

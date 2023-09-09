@@ -1,17 +1,20 @@
-import { Avatar, Divider, Grid } from "@mui/material";
-import { products } from "../../productSource";
-import { useParams } from "react-router-dom";
+import { Divider, Grid } from "@mui/material";
+import { useParams, NavLink } from "react-router-dom";
 import { Typography, Box, Button, Stack } from "@mui/material";
+import { products } from "../../productSource";
+import AddToCart from "../AddToCart/AddToCart";
 
 const DetailProduct = () => {
   const params = useParams();
-  console.log(params);
+  // console.log(params);
 
   const newProduct = products.find((item, index, array) => {
     return item.id == params.pid;
   });
 
-  console.log(newProduct);
+  // console.log(newProduct);
+
+  const { image, title, brand, stock, description, price } = newProduct;
   return (
     <>
       <Box
@@ -27,25 +30,24 @@ const DetailProduct = () => {
       >
         <Grid container>
           <Grid item xs={6}>
-            <img src={newProduct.image} width="200px" height="200px" />
+            <img src={image} width="200px" height="200px" />
           </Grid>
-
           <Grid item xs={6}>
-            <Typography variant="h6">{newProduct.title}</Typography>
+            <Typography variant="h6">{title}</Typography>
             <Divider />
-            <Typography>Brand:{newProduct.brand}</Typography>
-            <Typography>stock:{newProduct.stock}</Typography>
-            <Typography>{newProduct.description}</Typography>
+            <Typography>Brand:{brand}</Typography>
+            <Typography>stock:{stock}</Typography>
+            <Typography>{description}</Typography>
 
             <Typography variant="h6" sx={{ color: "orange" }}>
-              Rs.{newProduct.price}
+              Rs.{price}
             </Typography>
             <Stack spacing={3} direction="row" sx={{ mt: 5 }}>
               <Button variant="contained">Buy Now</Button>
-              <Button variant="contained">Add to Cart</Button>
             </Stack>
           </Grid>
         </Grid>
+        {<AddToCart oneProduct={newProduct} />}
       </Box>
     </>
   );
